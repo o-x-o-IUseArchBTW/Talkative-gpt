@@ -4,7 +4,8 @@ a client for the openai api with custom "personality's" and chat memory ***mostl
 # How to use.
  - Install this repo on you device.
  - Install python 3.0 or higher.
- - Run pip install OpenAI in your terminal(Powershell/Command prompt on windows.)
+    - For windows pip install OpenAI in your terminal(Powershell/Command prompt)
+    - For Arch-Linux : sudo pacman -S python-openai 
  - change from chatbot.py ***OpenAI.API_KEY = "YOUR_KEY_HERE"*** the YOUR_KEY_HERE to your OpenAI API key Keep the quotation marks!
  - Just run the "chatbot.py" file.
  - Type the filename of your chat (Will make new if none exits.)
