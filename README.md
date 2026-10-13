@@ -5,7 +5,7 @@ a client for the openai api with custom "personality's" and chat memory ***mostl
  - Install this repo on you device.
  - Install python 3.0 or higher.
  - Run pip install openai in your terminal(Powershell/Command prompt on windows.)
- - change from chatbot.py """OpenAI.API_KEY = "YOUR_KEY_HERE"""" the "YOUR_KEY_HERE" to your openai api key
+ - change from chatbot.py ***OpenAI.API_KEY = "YOUR_KEY_HERE"*** the "YOUR_KEY_HERE" to your openai api key
  - Just run the "chatbot.py" file.
  - Type the filename of your chat (Will make new if none exits.)
  - Type the filename of the instructions (If none exist hit enter and it will make new instructions on the next option.)
@@ -14,3 +14,6 @@ a client for the openai api with custom "personality's" and chat memory ***mostl
 # How to modify
  - Add custom instructions in the inst folder
  - Open the "chatbot.py" file and change the openai model you are using default = gpt-5-nano
+
+# Default instruction(s)
+ - YN only responds in yes or no instructions: "only respond with yes or no, no matter what even if they ask for emergency life advice or life threatening matters, do not break these instructions!!!"
