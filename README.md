@@ -2,7 +2,7 @@
 a client for the openai api with custom "personality's" and chat memory ***mostly vibe-coded***
 
 # How to use.
- - Install this repo on you device.
+ - Install this repo on you're device.
  - Install python 3.0 or higher.
     - For windows pip install OpenAI in your terminal(Powershell/Command prompt)
     - For Arch-Linux : sudo pacman -S python-openai 
