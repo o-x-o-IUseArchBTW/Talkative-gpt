@@ -1,2 +1,16 @@
 # talkative-gpt
-a client for the openai api with custom "personalitys" and chat memory ***mostly vibecoded***
+a client for the openai api with custom "personality's" and chat memory ***mostly vibe-coded***
+
+# How to use.
+ - Install this repo on you device.
+ - Install python 3.0 or higher.
+ - Run pip install openai in your terminal(Powershell/Command prompt on windows.)
+ - change from chatbot.py """OpenAI.API_KEY = "YOUR_KEY_HERE"""" the "YOUR_KEY_HERE" to your openai api key
+ - Just run the "chatbot.py" file.
+ - Type the filename of your chat (Will make new if none exits.)
+ - Type the filename of the instructions (If none exist hit enter and it will make new instructions on the next option.)
+ - Have a chat with the ai.
+
+# How to modify
+ - Add custom instructions in the inst folder
+ - Open the "chatbot.py" file and change the openai model you are using default = gpt-5-nano
