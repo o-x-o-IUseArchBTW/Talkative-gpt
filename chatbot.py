@@ -12,7 +12,7 @@ MODEL = "gpt-5-nano"
 
 INST_DIR = "inst"
 CHAT_DIR = "chat"
-OpenAI.API_KEY = "YOUR_KEY_HERE"
+API_KEY = "YOUR_KEY_HERE" # <-- Replace YOUR_KEY_HERE with your key
 os.makedirs(INST_DIR, exist_ok=True)
 os.makedirs(CHAT_DIR, exist_ok=True)
 
@@ -93,7 +93,8 @@ def add_message(name, chat_data, role, content):
 # OpenAI
 # =========================
 
-client = OpenAI()
+# Pass the API key directly into the client instance creation
+client = OpenAI(api_key=API_KEY) 
 
 
 # =========================
