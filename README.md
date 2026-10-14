@@ -1,5 +1,5 @@
 # talkative-gpt
-a client for the openai api with custom "personality's" and chat memory ***mostly vibe-coded***
+An OpenAI API client with customizable personalities and chat memory, **mostly vibe-coded**.
 
 # How to use.
  - Install this repo on you're device.
